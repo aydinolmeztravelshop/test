@@ -14,6 +14,6 @@ class Aydin
 
     public function getTest(): ?string
     {
-        return $this->container->getParameter('access_key');
+        return $this->container->getParameter('aydin.access_key');
     }
 }
