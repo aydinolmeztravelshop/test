@@ -1,0 +1,27 @@
+{
+    "name": "travelshopbooking/aydin",
+    "type": "symfony-bundle",
+    "description": "Aydin bundle",
+    "keywords": ["travel", "shop", "booking", "aydin", "bundle", "travelshopbooking"],
+    "license": "MIT",
+    "homepage": "https://github.com/aydinolmeztravelshop/test",
+    "require": {
+        "php": "8.0.*",
+        "symfony/dependency-injection": "5.4.*",
+        "symfony/config": "5.4.*",
+        "symfony/http-kernel": "5.4.*",
+        "symfony/yaml": "5.4.*",
+        "symfony/console": "5.4.*",
+        "symfony/http-client": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aydin\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}

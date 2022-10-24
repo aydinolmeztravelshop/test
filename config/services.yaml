@@ -1,0 +1,6 @@
+services:
+  Aydin\Aydin:
+    autowire: true
+  aydin:
+    alias: Aydin\Aydin
+    public: true
