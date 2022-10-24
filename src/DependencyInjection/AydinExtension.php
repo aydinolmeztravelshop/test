@@ -18,5 +18,8 @@ class AydinExtension extends Extension
         // Apply our config schema to the given app's configs
         $schema = new ConfigSchema();
         $options = $this->processConfiguration($schema, $configs);
+        foreach ($options as $key => $value) {
+            $container->setParameter('aydin.' . $key, $value);
+        }
     }
 }
